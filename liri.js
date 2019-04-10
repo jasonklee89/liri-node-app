@@ -26,7 +26,6 @@ switch (command) {
 
 function concertSearch() {
     var queryUrl = 'https://rest.bandsintown.com/artists/' + input + '/events?app_id=codingbootcamp';
-        console.log(queryUrl)
         axios.get(queryUrl).then(function (response) {
             var date = moment(response.data[1].datetime).format('MM/DD/YYYY');
             console.log("Venue: " + response.data[1].venue.name);
