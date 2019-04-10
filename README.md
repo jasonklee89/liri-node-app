@@ -5,7 +5,7 @@ First, be sure to type `npm i` into the command line to install all the packages
 Note: if you choose to input a query with more than one word, please be sure to surround your query with "quotes like these".
 
 ### Bands In Town API
-
+* Snapshot of concert-this with Tame Impala as input
 ![LIRI-concert-this](assets/LIRI-concert-this.png?raw=true "LIRI-concert-this")
 
 * Command: `node liri.js concert-this <artist/band name here>`
@@ -20,8 +20,10 @@ Note: if you choose to input a query with more than one word, please be sure to 
 
 
 ### Spotify API
-
+* Snapshot of spotify-this-song with default input
 ![LIRI-spotify-no-input](assets/LIRI-spotify-no-input.png?raw=true "LIRI-spotify-no-input")
+
+* Snapshot of spotify-this-song with Teenage Dream as input
 ![LIRI-spotify-with-input](assets/LIRI-spotify-with-input.png?raw=true "LIRI-spotify-with-input")
 
 * Command: `node liri.js spotify-this-song '<song name here>'`
@@ -39,8 +41,10 @@ Note: if you choose to input a query with more than one word, please be sure to 
    * If no song is provided then the program will default to "The Sign" by Ace of Base.
 
 ### OMDB API
-
+* Snapshot of movie-this with default input
 ![LIRI-omdb-no-input](assets/LIRI-omdb-no-input.png?raw=true "LIRI-omdb-no-input")
+
+* Snapshot of movie-this with Lost in Translation as input
 ![LIRI-omdb-with-input](assets/LIRI-omdb-with-input.png?raw=true "LIRI-omdb-with-input")
 
 * Command: `node liri.js movie-this '<movie name here>'`
@@ -67,6 +71,7 @@ Note: if you choose to input a query with more than one word, please be sure to 
 
 ### I Want it That Way Command (Spotify API)
 
+* Snapshot of do-what-it-says.  I want it that way!
 ![LIRI-do-what-it-says](assets/LIRI-do-what-it-says.png?raw=true "LIRI-do-what-it-says")
 
 * `node liri.js do-what-it-says`
