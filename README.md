@@ -21,6 +21,9 @@ Note: if you choose to input a query with more than one word, please be sure to 
 
 ### Spotify API
 
+![LIRI-spotify-no-input](assets/LIRI-spotify-no-input.png?raw=true "LIRI-spotify-no-input")
+![LIRI-spotify-with-input](assets/LIRI-spotify-with-input.png?raw=true "LIRI-spotify-with-input")
+
 * Command: `node liri.js spotify-this-song '<song name here>'`
 
    * This will show the following information about the song in your terminal/bash window
@@ -36,6 +39,9 @@ Note: if you choose to input a query with more than one word, please be sure to 
    * If no song is provided then the program will default to "The Sign" by Ace of Base.
 
 ### OMDB API
+
+![LIRI-omdb-no-input](assets/LIRI-omdb-no-input.png?raw=true "LIRI-omdb-no-input")
+![LIRI-omdb-with-input](assets/LIRI-omdb-with-input.png?raw=true "LIRI-omdb-with-input")
 
 * Command: `node liri.js movie-this '<movie name here>'`
 
@@ -60,6 +66,8 @@ Note: if you choose to input a query with more than one word, please be sure to 
    * If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
 
 ### I Want it That Way Command (Spotify API)
+
+![LIRI-do-what-it-says](assets/LIRI-do-what-it-says.png?raw=true "LIRI-do-what-it-says")
 
 * `node liri.js do-what-it-says`
 
