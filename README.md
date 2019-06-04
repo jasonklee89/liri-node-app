@@ -1,4 +1,6 @@
-# liri-node-app
+# Liri-Node-App
+
+### About / How to Use
 Hi, welcome to LIRI.  LIRI is just like iPhone's SIRI, except it takes input from the terminal's command line rather than by speech.  LIRI takes certain commands (described below), and gives you data about them.  This includes information about concerts, where to find music on Spotify, and movie information.  
 First, be sure to type `npm i` into the command line to install all the packages.
 
